@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	
+	<meta name="description" content="irj">
+
+    <!-- JavaScript를 통해 동적으로 스타일을 변경하는 스크립트 파일 
+    <script src="device-detection.js" defer></script> -->
+
+    <!-- 미디어 쿼리를 사용하여 모바일 및 데스크톱에 따른 스타일 파일 
+    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="index-mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 1201px)" href="index.css">
+-->
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>이럴줄 커미션</title>
+ 
+    
+</head>
+
+
+<body>
+
+    <div class="header">
+
+        <div class="logo"><img src="images/logo.png" onclick="window.location.href='home.html';"></div>
+
+        <div class="header-bar">
+
+            <div class="schedule" onclick="window.location.href='schedule.html';">일정</div>
+            <div class="teaser" onclick="window.location.href='teaser.html';">티저</div>
+
+            <div class="video-container" onmouseover="showVideoSubMenu()">
+                <div class="video">영상</div>
+                <div id="videoSubMenu" class="videoSubMenu">
+                    <div class="aa" onclick="window.location.href='video-1.html';">m/v</div>
+                    <div class="aa" onclick="window.location.href='video-2.html';">음방</div>
+                    <div class="aa" onclick="window.location.href='video-3.html';">behind</div>
+                </div>
+            </div>    
+            
+            <div class="album-container" onmouseover="showAlbumSubMenu()">
+                <div class="album">앨범</div>
+                <div id="albumSubMenu" class="albumSubMenu">
+                    <div class="aa" onclick="window.location.href='album-1.html';">사양</div>
+                    <div class="aa" onclick="window.location.href='album-2.html';">수록곡</div>
+                </div>
+            </div> 
+
+            <div class="win" onclick="window.location.href='win.html';">성적</div>
+            <div class="challenge" onclick="window.location.href='challenge.html';">챌린지</div>
+            <div class="comment" onclick="window.location.href='comment.html';">응원</div>
+
+        </div>
+
+    </div>
+
+    <div class="main">
+
+       <div class="box">
+            
+
+        <iframe width="1212" height="682" src="https://www.youtube.com/embed/dUd_9R_qJSg" title="KEY 키 &#39;Killer&#39; MV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br><br>
+        <iframe width="1212" height="682" src="https://www.youtube.com/embed/YlPYhcCER3o" title="KEY 키 &#39;Killer&#39; Performance Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+       </div>
+          
+    </div>
+
+
+    
+
+
+</body>
+
+</html>
+
+<script type="text/javascript" src="index.js"></script>
+
+
+
+

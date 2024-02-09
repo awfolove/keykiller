@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	
+	<meta name="description" content="irj">
+
+    <!-- JavaScript를 통해 동적으로 스타일을 변경하는 스크립트 파일 
+    <script src="device-detection.js" defer></script> -->
+
+    <!-- 미디어 쿼리를 사용하여 모바일 및 데스크톱에 따른 스타일 파일 
+    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="index-mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 1201px)" href="index.css">
+-->
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>이럴줄 커미션</title>
+ 
+    
+</head>
+
+
+<body>
+
+    <div class="header">
+
+        <div class="logo"><img src="images/logo.png" onclick="window.location.href='index.html';"></div>
+
+        <div class="header-bar">
+
+            <div class="schedule" onclick="window.location.href='schedule.html';">일정</div>
+            <div class="teaser">티저</div>
+
+            <div class="video-container" onmouseover="showVideoSubMenu()">
+                <div class="video">영상</div>
+                <div id="videoSubMenu" class="videoSubMenu">
+                    <div class="aa">m/v</div>
+                    <div class="aa">음방</div>
+                    <div class="aa">behind</div>
+                </div>
+            </div>    
+            
+            <div class="album-container" onmouseover="showAlbumSubMenu()">
+                <div class="album">앨범</div>
+                <div id="albumSubMenu" class="albumSubMenu">
+                    <div class="aa" onclick="window.location.href='album-2.html';">수록곡</div>
+                </div>
+            </div> 
+
+            <div class="win">성적</div>
+            <div class="challenge">챌린지</div>
+            <div class="comment">응원</div>
+
+        </div>
+
+    </div>
+
+    <div class="main">
+
+        이럴줄 홈페이지 커미션 샘플입니다.<br>
+        아직 준비 중이라 일정, 앨범 메뉴만 활성화되어 있습니다.<br><br>
+        
+        <div><a href="https://twitter.com/irj_0525">이럴줄 트위터</a></div>
+        
+    </div>
+
+
+
+
+
+
+
+    
+ 
+
+</body>
+
+</html>
+
+<script type="text/javascript" src="index.js"></script>
+
+
+
+
